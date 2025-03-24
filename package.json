@@ -1,0 +1,25 @@
+{
+  "name": "ai-email-responder",
+  "version": "1.0.0",
+  "description": "A cloud-based AI email responder that reads and replies to Gmail messages automatically using OpenAI and Google APIs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "email",
+    "automation",
+    "gmail",
+    "OpenAI",
+    "googleapis",
+    "ai",
+    "responder"
+  ],
+  "author": "Jayden Crocker",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "googleapis": "^126.0.0"
+  }
+}
